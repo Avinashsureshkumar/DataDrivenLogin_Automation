@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-08T21:21:32 IST" name="master Suite" finished-at="2024-07-08T21:22:24 IST" duration-ms="52196">
+    <groups>
+      <group name="master">
+        <method signature="Login_DataDriven.Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" name="Tc_002" class="testcases.Login_DataDriven"/>
+        <method signature="Tc_002_Invalid_Login.Tc_002()[pri:0, instance:testcases.Tc_002_Invalid_Login@3700ec9c]" name="Tc_002" class="testcases.Tc_002_Invalid_Login"/>
+        <method signature="Tc__001validLogin.Tc_001()[pri:0, instance:testcases.Tc__001validLogin@2c532cd8]" name="Tc_001" class="testcases.Tc__001validLogin"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-07-08T21:21:32 IST" name="master" finished-at="2024-07-08T21:22:24 IST" duration-ms="52196">
+      <class name="testcases.Tc_002_Invalid_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_002_Invalid_Login@3700ec9c]" started-at="2024-07-08T21:21:54 IST" name="setup" finished-at="2024-07-08T21:22:06 IST" duration-ms="11304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_002()[pri:0, instance:testcases.Tc_002_Invalid_Login@3700ec9c]" started-at="2024-07-08T21:22:06 IST" name="Tc_002" finished-at="2024-07-08T21:22:06 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc_002_Invalid_Login@3700ec9c]" started-at="2024-07-08T21:22:06 IST" name="teardown" finished-at="2024-07-08T21:22:06 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Tc_002_Invalid_Login -->
+      <class name="testcases.Tc__001validLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc__001validLogin@2c532cd8]" started-at="2024-07-08T21:21:32 IST" name="setup" finished-at="2024-07-08T21:21:49 IST" duration-ms="16506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_001()[pri:0, instance:testcases.Tc__001validLogin@2c532cd8]" started-at="2024-07-08T21:21:49 IST" name="Tc_001" finished-at="2024-07-08T21:21:54 IST" duration-ms="5118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc__001validLogin@2c532cd8]" started-at="2024-07-08T21:21:54 IST" name="teardown" finished-at="2024-07-08T21:21:54 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Tc__001validLogin -->
+      <class name="testcases.Login_DataDriven">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:06 IST" name="setup" finished-at="2024-07-08T21:22:15 IST" duration-ms="8484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:17 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:18 IST" duration-ms="487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testabc123456@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[InValid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:18 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:18 IST" duration-ms="295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@invalid.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alllowercase]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:18 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:18 IST" duration-ms="274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ALLUPPERCASE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:18 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:19 IST" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:19 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:19 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[noSpecial1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:19 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:19 IST" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@.com.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SpecialOnly@!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:19 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:19 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@com..com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:19 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:20 IST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@@com.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:20 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:20 IST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inva lid@com.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[toolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolongtoolong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:20 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:20 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid@com.com.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pa$$w0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:20 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:21 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidemail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[short]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:21 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:21 IST" duration-ms="320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method signature="Tc_002(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:21 IST" name="Tc_002" data-provider="logintest" finished-at="2024-07-08T21:22:24 IST" duration-ms="3021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_002 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Login_DataDriven@2002348]" started-at="2024-07-08T21:22:24 IST" name="teardown" finished-at="2024-07-08T21:22:24 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Login_DataDriven -->
+    </test> <!-- master -->
+  </suite> <!-- master Suite -->
+</testng-results>
